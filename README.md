@@ -1,1 +1,1 @@
-This is a simple library full of randomly generated fantasy character placeholders.
+This is a simple library full of small randomly generated images for use as a fantasy character placeholders.
