@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/Cal3y/fantasycharlib/refs/heads/main/charlib/c
 Here is a quick example of a very simple random url code that returns random character image from library
 
 <pre><code>
-const randomCharImage = Math.floor(Math.random() * 139) + 1; // random image number between 1-190
+const randomCharImage = Math.floor(Math.random() * 190) + 1; // random image number between 1-190
 const imageUrl = 'https://raw.githubusercontent.com/Cal3y/fantasycharlib/refs/heads/main/charlib/charimg%20(' + randomCharImage + ').png'; //create url string including random number
 &lt;img src="${imageUrl}"&gt; //show image from created url string
 </code></pre>
