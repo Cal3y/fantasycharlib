@@ -2,7 +2,7 @@
 This is a very simple library full of small, randomly generated images for use as a fantasy character placeholders.
 
 <h3>Random Characters with same url</h3>
-All character images share same url link(except their id number at the end) which makes them very easy to use in simple code that loads random url image.
+All character images share same url link(except their id number at the end) which makes them very easy to use in simple code that returns random url image.
 This means that we can just change the number at the end of the url link to get random image.
 
 <h4>First image in the list</h4>
