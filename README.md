@@ -1,5 +1,5 @@
 <h1>Fantasy Characters Random Library</h1>
-This is a very simple library full of small, randomly generated images for use as a fantasy character placeholders. Currently there are 295 random character images.
+This is a very simple library full of small, randomly generated images for use as a fantasy character placeholders. Currently there are 296 random character images.
 
 <h3>Random Characters with same url</h3>
 All character images share same url link(except their id number at the end) which makes them very easy to use in simple code that returns random url image.
@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/Cal3y/fantasycharlib/refs/heads/main/charlib/c
 Here is a quick example of a very simple random url code that returns random character image from library
 
 <pre><code>
-const randomCharImage = Math.floor(Math.random() * 295) + 1; // random image number between 1-295
+const randomCharImage = Math.floor(Math.random() * 296) + 1; // random image number between 1-296
 const imageUrl = 'https://raw.githubusercontent.com/Cal3y/fantasycharlib/refs/heads/main/charlib/charimg%20(' + randomCharImage + ').png'; //create url string including random number
 &lt;img src="${imageUrl}"&gt; //show image from created url string
 </code></pre>
